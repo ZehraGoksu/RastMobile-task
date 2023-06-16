@@ -1,0 +1,13 @@
+@import "main";
+
+.grid {
+  background:linear-gradient(180deg, #EFF2FF -30.56%, rgba(232, 236, 255, 0) 135.85%);
+  border-radius: 6px;
+  padding: 4em;
+  #data-grid-demo {
+    min-height: 700px;
+  }
+  .dx-popup-draggable .dx-popup-title {
+    border-bottom: none;
+  }
+}

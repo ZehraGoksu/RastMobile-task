@@ -1,0 +1,28 @@
+@import "main";
+
+.logo {
+  margin: 0rem 3rem 0 0;
+
+  img {
+    width: 79px;
+    height: 52px;
+  }
+}
+
+.title {
+  margin-right: 50px;
+  h1.first {
+    color: $purple;
+    font-size: 2rem;
+    margin-bottom: -5px;
+    font-weight: 600;
+    padding-top: 3px;
+    font-family: $montserrat;
+  }
+  h1 {
+    color: $purple;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: $montserrat;
+  }
+}
