@@ -1,5 +1,5 @@
 import React from "react";
-import '../style/Navbar.scss';
+import '../../style/Navbar.scss';
 import Logo from "./Logo";
 import { Link } from "react-router-dom";
 import {FaYoutubeSquare,FaInstagramSquare,FaBehanceSquare,FaLinkedin,FaBars} from "react-icons/fa"
@@ -24,11 +24,13 @@ const Navbar = () => {
         } 
       ];
   return ( 
-    <div className="navbar navbar-expand-lg mx-4 mt-lg-3 mt-xl-3 mt-2"> 
-        <Logo className="navbar-brand"/>  
+    <div className="navbar navbar-expand-lg mx-4 mt-lg-3 mt-xl-3 mt-2">
+        <Logo className="navbar-brand"/>   
+        {/* Logo çağırıldı. */} 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
          <span className="navbar-toggler-icon"><FaBars/></span>
-       </button> 
+       </button>  
+       {/* Ekran boyutu küçüldüğünde gösterilecek buton. */} 
        <div className="collapse navbar-collapse justify-content-between" id="navbarScroll">
         <ul className="navbar-nav navbar-nav-scroll mb-lg-2"> 
           {
@@ -38,13 +40,15 @@ const Navbar = () => {
               </li>
             ))
           }
-        </ul>  
+        </ul>   
+       {/* Navbar elementleri. */} 
         <div className="mt-md-3 ms-md-2 mt-lg-0 ms-lg-0">
           <FaYoutubeSquare className="icon"/>
           <FaInstagramSquare className="icon"/>
           <FaBehanceSquare className="icon"/>
           <FaLinkedin className="icon"/> </div>
        </div>   
+       {/* Sosyal medya iconları. */}        
     </div>
   );
 };

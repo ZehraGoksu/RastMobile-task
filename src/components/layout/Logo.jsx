@@ -1,10 +1,11 @@
 import React from "react";
-import logo from "../assets/images/rastLogo.png";
-import '../style/Logo.scss'
+import logo from "../../assets/images/rastLogo.png";
+import '../../style/Logo.scss'
 
 const Logo = () => {
   return (
     <div className="d-flex align-items-center logo">
+       {/* Logo tanımlanmıştır. */} 
       <img src={logo} alt="Logo" />
       <div className="title">
         <h1 className="first">RAST</h1>

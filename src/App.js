@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <Layout> 
+       {/* Layout içerisinde eklenecek içerik sayfaları belirtilir. */} 
         <Content/>
       </Layout>
     </div>

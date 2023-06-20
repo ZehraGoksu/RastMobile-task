@@ -13,5 +13,16 @@
     color:$purple;
     font-size: 20px;
     margin-right: 10px;
+    cursor: pointer;
   }
+}
+
+
+@media (max-width: $xl) { #navbarScroll > ul > li > a{ 
+  margin-left: 18px;
+  padding-right: 0px !important;
+}
+#root > div > div > div > nav > div > div.d-flex.align-items-center.logo{
+  margin-right: -1.5rem !important;
+}
 }

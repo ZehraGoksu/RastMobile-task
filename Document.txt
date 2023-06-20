@@ -1,0 +1,11 @@
+- Proje tasarımını ve gerekliliklerini öğrendikten sonra ReactJs ile kodlamaya karar verdim. Gerekli yönergelerle projeyi, oluşturup kodlamaya başladım.
+  ReactJs ile ilk önce navbar kısmını, tasarıma uygun ve responsive olarak kodlamasını gerçekleştirdim. Ardından önerilen datagrid kütüphanelerinden
+  DevExpress'i tercih ettim. Daha önce DevExpress'i kullanmadığım için bir süre kalıplarını, işleyişi ve attributelerini öğrenmek için zamana ihityacım oldu.
+  DevExpressiçin öncelikle proje içerisine kurulum gerçekleştirip ardından datagrid ekledim. Birçok işlevi için farklı farklı attribute barındırmakta. Sayfalama, 
+  filtreleme, arama, yeni veri ekleme gibi özellikleri dahil ettim. Tasarıma uygun olması için birçok css özelliği ile son haline getirdim. Scss kullanarak css
+  özelliklerinin daha kullanılır hale geldiğini düşündüğüm için scss ile kullanmayı tercih edip, tekrar eden verileri değişenlerde tuttum. 
+  Datagrid içerisine veri gönderme işlemi için bir api'ye ihtiyaç olursa DevExpress'in DataBinding kısmında detaylı anlatımlarlıyla nasıl yapılacağını öğrendim.
+  Ancak elimizde sizlerin verilerine uygun bir api olmadığı için verileri kendim json formatında oluşturup kaynak olarak da json dosyasını göstermiş bulunmaktayım.
+  Eğer api ile veri çekilmek istenilirse ilgili model src klasörü altına eklenilmiştir.
+  Tüm süreçte DevExpress'in ne kadar geniş bir yapıya ve özelliklere sahip olduğunu anladım. Çok işlevsel olduğu bir gerçektir, detaylara daha fazla hakim olmak 
+  isteyeceğim bir kütüphane olmuştur.
