@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import DataGrid, {
   Column,
+  StateStoring,
   FilterRow,
   SearchPanel,
   Editing,
@@ -76,7 +77,7 @@ class Content extends Component {
   render() {
     return (
       <div id="data-grid-demo" className="grid">
-      {/* Devextreme datagridi eklendi, gerekli attributeleri kullanıldı. DataSource ile json dosyasındaki verileriyyy */} 
+      {/* Devextreme datagridi eklendi, gerekli attributeleri kullanıldı. DataSource ile json dosyasındaki veriler alındı */} 
         <DataGrid
           dataSource={Data}
           defaultColumns={columns}
@@ -92,6 +93,9 @@ class Content extends Component {
           onFocusedRowChanging={this.onFocusedRowChanging}
           onFocusedRowChanged={this.onFocusedRowChanged}
         >
+        {/* LocalStorage a eklenmesi için */} 
+        <StateStoring enabled={true} type="localStorage" storageKey="storage" />
+        
         {/* Filtreleme, arama, sayfalama için taglar eklenildi. */} 
           <FilterRow visible={true} applyFilter={"onClick"} />
           <SearchPanel visible={true} />
